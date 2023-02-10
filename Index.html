@@ -1,0 +1,64 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <form action="" id="demo">
+      <div class="demo"></div>
+      <div class="container">
+        <div>
+          <label for="Firstname" id="firstname">Firstname</label><br />
+          <input
+            type="text"
+            name=""
+            id="input"
+            placeholder="input your firstname"
+          />
+        </div>
+        <div>
+          <label for="Lastname" id="lastname">Lastname</label><br />
+          <input
+            type="text"
+            name=""
+            id="bag"
+            placeholder="input your lastname"
+          />
+        </div>
+      </div>
+      <div id="container">
+        <div>
+          <label for="password" class="password">password</label><br />
+          <input
+            type="password"
+            name=""
+            id="password"
+            placeholder="This must greater than six"
+            min="6"
+            required
+          />
+        </div>
+        <div>
+          <label for="password" class="confirm">Confirm password</label><br />
+          <input
+            type="password"
+            name=""
+            id="confirm"
+            placeholder="same as password"
+          />
+        </div>
+      </div>
+      <p id="err"></p>
+      <div>
+        <div class="submit">
+          <button class="login">Sign up</button>
+        </div>
+      </div>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
